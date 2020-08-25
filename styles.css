@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+}
+
+html, body{
+	height:100%;
+}
+body {
+	/*font-family: 'Source Sans Pro', sans-serif; */
+font-family: 'Alegreya Sans', sans-serif;
+/*  background-image: url("image.jpg"); */
+  background-size: cover;
+  padding: 10px 100px;
+	word-spacing: 5px;
+}
+
+/* Styling Navigation */
+.container {
+/*  background-color: #3587A4; */
+  overflow: auto;
+  padding: 10px 0px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container li{
+	display: inline-block;
+  float: right;
+  padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	font-weight: 700;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.container ul li a{
+	text-decoration: none; /* this gets rid of the underlying line - not sure how */
+  color:black;
+/*each element in the nav bar has a padding of 18 px? */
+}
+
+.container img {
+  float: left;
+}
+
+
+.container ul a:hover, .container ul a.selected{
+	color: 	#FF69B4;
+
+}
+
+.container ul a:active{
+  top: 2px;
+}
+
+.container li:hover{
+ cursor: pointer;
+}
+
+
+#logo {
+  float:left;
+	vertical-align: middle;
+	border: none;
+	width: 50;
+	height: 40;
+
+}
+
+.email {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-weight: 700;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+h4 {
+margin: 10 auto;
+border-bottom: solid 1px;
+font-style: bold;
+padding-bottom: 10px;
+}
+
+
+/* Styling main body */
+.nav {
+margin-left: auto;
+margin-right: auto;
+}
+
+.about {
+	float: left;
+  width: 47%;
+	margin-right: 0px;
+
+}
+
+.projects {
+	float: right;
+	width: 47%;
+	margin-left: 0px;
+	margin-top: 30px;
+
+}
+
+.about {
+	margin-top: 30px;
+}
+
+.footer {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	line-height: 1.7;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 16px;
+}
+ #link {
+	 text-decoration: none;
+	 color: black;
+	 line-height: 1.7;
+	 font-family: 'Alegreya Sans', sans-serif;
+	 font-size: 16px;
+ }
+
+ p {
+	 margin-top: 25px;
+	 line-height: 1.7;
+	 font-family: 'Alegreya Sans', sans-serif;
+	 font-size: 16px;
+ }
